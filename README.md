@@ -30,3 +30,7 @@ request('http://myservice.skydns.local/v1/ping', function (error, response, body
 ```
 
 The HTTP requests will then be made to the URI: `http://server1-myservice-8000.myservice.skydns.local:8110/v1/ping`.
+
+# License
+
+MIT: [http://jongretar.mit-license.org](http://jongretar.mit-license.org)
