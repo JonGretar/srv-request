@@ -2,7 +2,7 @@
 
 Extends [Request](https://github.com/request/request) with lookup of DNS SRV records.
 
-Use just as you would Request except that instead of the hostname in the URI you use the SRV record host. A random host will be chosen from the SRV results.
+Use just as you would [Request](https://github.com/request/request) except that instead of the hostname in the URI you use the SRV record host. A random host will be chosen from the SRV results.
 
 Given the following example setup created using [SkyDNS](https://github.com/skynetservices/skydns) and [Registrator](https://github.com/progrium/registrator):
 
