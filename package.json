@@ -1,16 +1,29 @@
 {
   "name": "srv-request",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Extends Request with DNS SRV record lookup",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": { "type": "git", "url": "https://github.com/JonGretar/srv-request.git" },
-  "keywords": [ "request", "srv", "dns", "http", "service-discovery", "client", "discovery" ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonGretar/srv-request.git"
+  },
+  "keywords": [
+    "request",
+    "srv",
+    "dns",
+    "http",
+    "service-discovery",
+    "client",
+    "discovery"
+  ],
   "author": "Jón Grétar Borgþórsson",
   "license": "MIT",
-  "bugs": { "url": "https://github.com/JonGretar/srv-request/issues" },
+  "bugs": {
+    "url": "https://github.com/JonGretar/srv-request/issues"
+  },
   "homepage": "https://github.com/JonGretar/srv-request",
   "dependencies": {
     "request": "^2.53.0"
