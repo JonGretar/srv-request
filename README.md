@@ -23,7 +23,7 @@ server2-myservice-8000.myservice.skydns.local. 33 IN A 10.10.10.40
 You will make your request as such:
 
 ```javascript
-var request = require('request');
+var request = require('srv-request');
 request('http://myservice.skydns.local/v1/ping', function (error, response, body) {
 	console.log(error, body)
 });
