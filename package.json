@@ -1,6 +1,6 @@
 {
   "name": "srv-request",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extends Request with DNS SRV record lookup",
   "main": "index.js",
   "scripts": {
